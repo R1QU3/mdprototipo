@@ -1,0 +1,34 @@
+/* Root */
+
+:root {
+     /* Default font size */
+     font-size: 16px;
+     /* Color Pallet */
+     --md-white: #f5f5f5;
+     --md-black: #151515;
+     --md-gray: #999;
+     --md-strong-green: #187D6D;
+     --md-light-green: #48AE4D;
+     /* fonts */
+     --md-main-font: 'Zen Antique';
+     --md-secondary-font: 'Roboto';
+}
+
+/* Default */
+
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+     width: 100%;
+     overflow-x: hidden;
+}
+
+main {
+     box-sizing: border-box;
+     width: 1440px;
+     margin: 0 auto;
+}
+
+
