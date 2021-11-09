@@ -1,10 +1,10 @@
 <template>
-     
+
      <article class="alicat-content">
 
           <header>
                <h1 v-html="title"></h1>
-          </header>   
+          </header>
 
           <header>
                <h2 v-html="sub_title"></h2>
@@ -79,5 +79,5 @@ export default {
      bottom: -12.5rem;
      z-index: -999;
 }
-     
+
 </style>

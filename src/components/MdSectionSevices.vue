@@ -1,5 +1,5 @@
 <template>
-     
+
      <header>
           <h1 v-html="title"></h1>
           <h2 v-html="sub_title"></h2>
@@ -9,7 +9,7 @@
 
                     <section class="section services-content">
 
-                         <MdBoxWheelBarrow 
+                         <MdBoxWheelBarrow
                               name='
                                    Lorem ipsum dolor sit
                               '
@@ -19,13 +19,13 @@
                               '
                          />
 
-                         <MdBoxFertilizer 
+                         <MdBoxFertilizer
                               name='
                                    Lorem ipsum dolor sit
                               '
                          />
 
-                         <MdBoxPlant 
+                         <MdBoxPlant
                               name='
                                    Lorem ipsum dolor sit
                               '
@@ -47,26 +47,26 @@
 
                     <section class="section services-content">
 
-                         <MdBoxWheelBarrow 
+                         <MdBoxWheelBarrow
                               name='
                                    Lorem ipsum dolor sit
                               '
                               photo='../assets/img/img-elements/wheelbarrow.png'
                          />
 
-                         <MdBoxFertilizer 
+                         <MdBoxFertilizer
                               name='
                                    Lorem ipsum dolor sit
                               '
                          />
 
-                         <MdBoxPlant 
+                         <MdBoxPlant
                               name='
                                    Lorem ipsum dolor sit
                               '
                          />
 
-                         <MdBoxPlant 
+                         <MdBoxPlant
                               name='
                                    Lorem ipsum dolor sit
                               '
@@ -83,9 +83,9 @@
 </template>
 <script>
 
-import MdBoxWheelBarrow from './MdBoxWheelBarrow.vue' 
-import MdBoxFertilizer from './MdBoxFertilizer.vue' 
-import MdBoxPlant from './MdBoxPlant.vue' 
+import MdBoxWheelBarrow from './MdBoxWheelBarrow.vue'
+import MdBoxFertilizer from './MdBoxFertilizer.vue'
+import MdBoxPlant from './MdBoxPlant.vue'
 import MdContentBoxStatus from './MdContentBoxStatus.vue'
 
 export default {
@@ -108,6 +108,7 @@ export default {
      position: absolute;
      bottom: -14rem;
      right: .2rem;
+     z-index: -1;
 }
 
 .s-box {
@@ -121,7 +122,7 @@ export default {
      border-color: var(--md-light-green);
      transform: scale(1.1);
 }
-     
+
 #section-service header {
      margin-bottom: 4.70rem;
 }

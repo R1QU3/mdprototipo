@@ -1,5 +1,5 @@
 <template>
-     
+
 <!-- Component Header -->
      <header id="header-nav">
                <div class="logo">
@@ -15,12 +15,12 @@
                          <li><a href="#">Kontakt</a></li>
                     </ul>
                     <div class="social">
-                         
-                         <a href="#"><i class="fab fa-facebook"></i></a>
 
-                         <a href="#"><i class="fab fa-instagram"></i></a>
+                         <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
 
-                         <a href="#"><i class="fab fa-linkedin"></i></a>
+                         <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                         <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
 
                     </div>
                </nav>
@@ -37,12 +37,12 @@ export default {
 }
 </script>
 <style>
-     
+
 
 /* header */
 
 #header-nav {
-     width: 90%;
+     width: 85rem;
      margin: 0 auto;
      display: flex;
      justify-content: space-between;

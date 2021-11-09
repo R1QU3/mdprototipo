@@ -1,26 +1,14 @@
 <template>
-     
+
      <div class="commentary-content">
 
           <div id="quotation">
                <p>“</p>
           </div>
-          
+
           <section class="c-card-section">
 
-               <MdBoxCommentary 
-                    commentary='
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit. 
-                    '
-                    title='
-                         Max Musstermann
-                    '
-                    user='
-                         JustGreen
-                    '
-               />
-
-               <MdBoxCommentary 
+               <MdBoxCommentary
                     commentary='
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
                     '
@@ -32,7 +20,19 @@
                     '
                />
 
-               <MdBoxCommentary 
+               <MdBoxCommentary
+                    commentary='
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
+                    '
+                    title='
+                         Max Musstermann
+                    '
+                    user='
+                         JustGreen
+                    '
+               />
+
+               <MdBoxCommentary
                     commentary='
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
                     '
@@ -50,9 +50,11 @@
 
                <h1>Haben Sie sich interessiert?</h1>
                <h2>Dann Melden Sie sich gerne für ein unverbindliches Angebot!</h2>
-                    
-               <MdButtonDefaultWhite 
-               name='This is a button' 
+
+               <MdButtonDefaultWhite
+               name='
+                  Angebot anfordern
+               '
                />
 
           </div>
@@ -122,5 +124,5 @@ export default {
      font-size: 1.875rem;
      overflow-wrap: break-word;
 }
-     
+
 </style>

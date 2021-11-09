@@ -1,5 +1,5 @@
 <template>
-     
+
      <footer>
 
           <div id="footer-content">
@@ -10,27 +10,27 @@
                          Volutpat ornare lacus, dignissim morbi bibendum fringilla diam. Sit dui dui non tristique. Cras vivamus metus, sagittis, at etiam sit eu sed viverra. Vehicula turpis sit mauris integer morbi enim tellus.
                     </p>
                     <div class="social">
-                         
-                         <a href="#"><i class="fab fa-facebook"></i></a>
 
-                         <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
 
-                         <a href="#"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                      <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
 
                     </div>
                </div>
-     
+
                <div id="footer-quicklinks">
                     <h1>Quick Links</h1>
                     <a href="#">Baumpflege</a>
+                    <a href="#">Baumfällung</a>
+                    <a href="#">Stubbenfräsen</a>
                     <a href="#">Baumpflege</a>
-                    <a href="#">Baumpflege</a>
-                    <a href="#">Baumpflege</a>
-                    <a href="#">Baumpflege</a>
-                    <a href="#">Baumpflege</a>
-                    <a href="#">Baumpflege</a>
+                    <a href="#">Heckenschnitt</a>
+                    <a href="#">Obstbaumschnitt</a>
+                    <a href="#">Rasenpflege</a>
                </div>
-     
+
                <div id="footer-info">
                     <h1>So finden Sie uns</h1>
                     <p class="text-default">
@@ -42,11 +42,11 @@
                     <a href="tel:+01627928659">01627928659</a>
                </div>
 
-               
+
           </div>
 
           <div id="footer-line"></div>
-          
+
           <div id="copy">
                <div class="text-default">
                     <p>Copyright &copy;2021 Alle Rechen vorbehalten</p>
@@ -63,7 +63,7 @@
 </template>
 <script>
 export default {
-     
+
 }
 </script>
 <style scoped>
@@ -78,8 +78,9 @@ footer {
 
 #footer-content {
      display: flex;
-     justify-content: center;
-     align-items: center;
+     justify-content: space-between;
+     align-items: flex-start;
+     padding: 2.9rem;
      height: 90%;
 }
 
@@ -111,10 +112,10 @@ footer {
      justify-content: space-between;
 }
 
-
-
+/* Footer social - 421x100 */
 #footer-social, #footer-info {
-     width: 35%;
+     width: 26.3125rem;
+     height: 15.125rem;
      text-align: left;
 }
 
@@ -127,9 +128,15 @@ footer {
      margin-bottom: 0.625rem;
 }
 
+/* 182x262 */
 #footer-quicklinks {
-     width: 25%;
-     text-align: center;
+     width: 11.375rem;
+     height: 16.375rem;
+     text-align: left;
+}
+
+#footer-quicklinks a {
+  margin-left: .5rem;
 }
 
 #footer-quicklinks h1, #footer-info h1 {
@@ -185,5 +192,5 @@ footer {
      color: #fff;
 }
 
-     
+
 </style>
