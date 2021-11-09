@@ -46,9 +46,14 @@ export default {
 
 .alicat-content {
      margin: 0 auto;
-     width: 70%;
      box-sizing: border-box;
+     width: 40.125rem;
+     height: 29.625rem;
      text-align: center;
+}
+
+.alicat-content header {
+  overflow-wrap: break-word;
 }
 
 .alicat-content header h1 {

@@ -21,7 +21,12 @@
 	src: local(superclarendon), url(../fonts/superclarendon/superclarendon-rg-587270e85c031.ttf)
 }
 
+@font-face {
+	font-family: Roboto;
+	src: local(Roboto), url(../fonts/roboto/Roboto-Regular.ttf )
+}
 
+/* Roboto-Regular.ttf */
 /* Default */
 
 ::-webkit-scrollbar {

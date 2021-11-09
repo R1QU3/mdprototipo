@@ -1,5 +1,5 @@
 <template>
-     
+
      <div class="l-box">
           <div class="l-box-content">
                <header>
@@ -9,7 +9,7 @@
                <MdButtonDefault :name="buttonName"/>
           </div>
           <div class="img-wrapper">
-               <img src="../assets/img/img-content/tree1.png" alt=""> 
+               <img src="../assets/img/img-content/tree1.png" alt="">
           </div>
      </div>
 
@@ -74,6 +74,12 @@ export default {
      margin-top: 17.187rem;
 }
 
+.l-box-content header {
+  box-sizing: border-box;
+  width: 39.375rem;
+  overflow-wrap: break-word;
+}
+
 .l-box-content header h1 {
      font-family: var(--md-main-font), sans-serif;
      font-size: 3.25rem;
@@ -81,5 +87,5 @@ export default {
      color: var(--md-strong-green);
 }
 
-     
+
 </style>

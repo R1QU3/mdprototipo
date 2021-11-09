@@ -104,6 +104,13 @@ export default {
 </script>
 <style scoped>
 
+header {
+  box-sizing: border-box;
+  width: 40.0625rem;
+  height: 11.8125rem;
+  overflow-wrap: break-word;
+}
+
 .leaf {
      position: absolute;
      bottom: -14rem;

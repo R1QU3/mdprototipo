@@ -9,42 +9,42 @@
 
         <MdSection1
          title="
-          Ast & Strauch<br>Tabbert 
+          Ast & Strauch Tabbert
         "
          paragraph="
-          Baumpflege und Baumkontrolle in Brandenburg und Berlin 
+          Baumpflege und Baumkontrolle in Brandenburg und Berlin
          "
          buttonName="
           Angebot anforden
          "
          />
 
-        <MdSection2 
+        <MdSection2
         title="
           Arbeiten mit den Baumpflege-Profis
-        " 
+        "
         paragraph="
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit feugiat nunc quis tortor enim purus nibh. Tellus aliquam posuere porta curabitur amet lectus lorem cursus. Amet at pellentesque amet orci. Pharetra eget tempus commodo non. Justo, convallis tristique morbi adipiscing varius donec ac. Et a massa augue viverra. Lorem pellentesque lacus, quis lacus lectus feugiat. Volutpat bibendum integer mi dignissim.
-        " 
+        "
         buttonName="
           Angebot anforden
         "
-        
+
         />
 
       </section>
 
       <section id="section-article">
 
-        <MdArticleSection 
+        <MdArticleSection
         title="
-          Metus et sit id vel. 
+          Metus et sit id vel.
         "
         sub_title="
-          Aliquet sed aliquam<br>auctor eu nisi. 
+          Aliquet sed aliquam auctor eu nisi.
         "
         paragraph="
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis ac massa vel et. In odio in ultrices in eu, suscipit posuere mauris maecenas. A urna in morbi turpis ornare lectus ac. Tortor orci feugiat magna nisl leo mauris sed volutpat. Massa neque sit et pellentesque tortor eget. Viverra elementum nunc, ipsum odio ullamcorper venenatis id. Aliquet auctor morbi aliquam volutpat, sit volutpat cras. Dignissim iaculis id vitae donec eu cras donec. Ipsum mauris integer lectus dis eu arcu malesuada ac lacus. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis ac massa vel et. In odio in ultrices in eu, suscipit posuere mauris maecenas. A urna in morbi turpis ornare lectus ac. Tortor orci feugiat magna nisl leo mauris sed volutpat. Massa neque sit et pellentesque tortor eget. Viverra elementum nunc, ipsum odio ullamcorper venenatis id. Aliquet auctor morbi aliquam volutpat, sit volutpat cras. Dignissim iaculis id vitae donec eu cras donec. Ipsum mauris integer lectus dis eu arcu malesuada ac lacus.
         "
         buttonName="
           Angebot anforden
@@ -55,12 +55,12 @@
 
       <section class="section" id="section-service">
 
-        <MdSectionServices 
+        <MdSectionServices
           title='
             Unser service
           '
           sub_title='
-            Für Sie in<br>Brandenburg und<br>Berlin
+            Für Sie in Brandenburg und Berlin
           '
         />
 
@@ -93,9 +93,9 @@
 
 /* Global Elements */
 import MdButtonDefault from './components/MdButtonDefault.vue'
-import MdBoxWheelBarrow from './components/MdBoxWheelBarrow.vue' 
-import MdBoxFertilizer from './components/MdBoxFertilizer.vue' 
-import MdBoxPlant from './components/MdBoxPlant.vue' 
+import MdBoxWheelBarrow from './components/MdBoxWheelBarrow.vue'
+import MdBoxFertilizer from './components/MdBoxFertilizer.vue'
+import MdBoxPlant from './components/MdBoxPlant.vue'
 import MdContentBoxStatus from './components/MdContentBoxStatus.vue'
 import MdBoxCommentary from './components/MdBoxCommentary'
 import MdFloatBox from './components/MdFloatBox.vue'
