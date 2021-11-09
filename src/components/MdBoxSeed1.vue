@@ -31,8 +31,8 @@ export default {
 .seed-box {
      text-align: center;
      box-sizing: border-box;
-     width: 30%;
-     height: 70%;
+     width: 21.625rem;
+     height: 9.5625rem;
      display: flex;
      flex-direction: column;
      justify-content: center;

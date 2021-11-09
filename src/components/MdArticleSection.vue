@@ -55,18 +55,28 @@ export default {
      color: var(--md-white);
      font-family: var(--md-secondary-font);
      font-weight: 400;
+     text-transform: uppercase;
      font-size: 1.25rem;
 }
 
 .alicat-content header h2 {
      font-size: 3.125rem;
+     font-weight: 700;
+     font-family: var(--md-main-font);
      color: var(--md-white);
+     line-height: 3.9375rem;
+}
+
+.alicat-content p {
+     font-size: 1.125rem;
+     color: var(--md-white);
+     line-height: 1.5625rem;
 }
 
 .leaf {
      position: absolute;
      right: -5rem;
-     bottom: -16rem;
+     bottom: -12.5rem;
      z-index: -999;
 }
      

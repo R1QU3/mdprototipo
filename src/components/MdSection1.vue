@@ -7,9 +7,9 @@
                </header>
                <p v-html="paragraph" class="text-dafault"></p>
                <MdButtonDefault :name="buttonName"/>
-               <div class="img-wrapper">
-                    <img src="../assets/img/img-content/tree1.png" alt=""> 
-               </div>
+          </div>
+          <div class="img-wrapper">
+               <img src="../assets/img/img-content/tree1.png" alt=""> 
           </div>
      </div>
 
@@ -35,10 +35,10 @@ export default {
 <style scoped>
 
 .img-wrapper {
-     box-sizing: border-box;
-     width: 435px;
-     height: 476px;
-     margin: 0 auto
+     position: absolute;
+     bottom: -40px;
+     left: 40px;
+     margin: 0 auto;
 }
 
 .img-wrapper img {
@@ -54,26 +54,30 @@ export default {
 
 .l-box {
      box-sizing: border-box;
-     width: 50%;
-     height: 900px;
+     width: 45%;
+     height: 100%;
 }
 
 /* box */
 
 .l-box {
+     position: relative;
      display: flex;
-     flex-direction: column-reverse;
+     align-items: flex-start;
+     flex-direction: column;
 }
 
 /* l-box content */
 
 .l-box-content {
      width: 100%;
+     margin-top: 17.187rem;
 }
 
 .l-box-content header h1 {
      font-family: var(--md-main-font), sans-serif;
      font-size: 3.25rem;
+     font-weight: 700;
      color: var(--md-strong-green);
 }
 

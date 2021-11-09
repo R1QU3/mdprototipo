@@ -51,7 +51,9 @@
                <h1>Haben Sie sich interessiert?</h1>
                <h2>Dann Melden Sie sich gerne für ein unverbindliches Angebot!</h2>
                     
-               <MdButtonDefault name='This is a button' color='background: white; color: var(--md-light-green)'/>
+               <MdButtonDefaultWhite 
+               name='This is a button' 
+               />
 
           </div>
 
@@ -63,7 +65,7 @@
 <script>
 
 import MdBoxCommentary from './MdBoxCommentary.vue'
-import MdButtonDefault from './MdButtonDefault.vue'
+import MdButtonDefaultWhite from './MdButtonDefaultWhite.vue'
 
 
 export default {
@@ -72,12 +74,12 @@ export default {
 
      },
      components: {
-          MdButtonDefault,
+          MdButtonDefaultWhite,
           MdBoxCommentary,
      }
 }
 </script>
-<style>
+<style scoped>
 
 #quotation {
      width: 100%;
@@ -109,13 +111,16 @@ export default {
 .interessiert h1 {
      font-family: var(--md-secondary-font);
      font-weight: 400;
-     font-size: 1rem;
+     font-size: 1.125rem;
 }
 
-.interessiert h1 {
+.interessiert h2 {
+     width: 70%;
+     margin: 0 auto;
      font-family: var(--md-main-font);
      font-weight: 700;
-     font-size: 2rem;
+     font-size: 1.875rem;
+     overflow-wrap: break-word;
 }
      
 </style>

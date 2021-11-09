@@ -11,20 +11,23 @@
 
                          <MdBoxWheelBarrow 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                               photo='../assets/img/img-elements/wheelbarrow.png'
+                              bg='
+                                   background: #F9F7F5;
+                              '
                          />
 
                          <MdBoxFertilizer 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                          />
 
                          <MdBoxPlant 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                          />
 
@@ -46,44 +49,35 @@
 
                          <MdBoxWheelBarrow 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                               photo='../assets/img/img-elements/wheelbarrow.png'
                          />
 
                          <MdBoxFertilizer 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                          />
 
                          <MdBoxPlant 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                          />
 
                          <MdBoxPlant 
                               name='
-                              Loren Ipsilon<br>dor sir loren
+                                   Lorem ipsum dolor sit
                               '
                          />
 
-                         <!-- <MdContentBoxStatus
-                              t1='
-                              Term 3
-                              '
-                              t2='
-                              Term 2
-                              '
-                              t3='
-                              Term 3
-                              '
-                         />    -->
 
                     </section>
 
      </section>
+
+     <img class="leaf" src="../assets/img/img-elements/leaf2.png" alt="">
 
 
 </template>
@@ -108,7 +102,25 @@ export default {
      }
 }
 </script>
-<style>
+<style scoped>
+
+.leaf {
+     position: absolute;
+     bottom: -14rem;
+     right: .2rem;
+}
+
+.s-box {
+     margin: 1.875rem;
+     cursor: pointer;
+     border: solid 1px transparent;
+     transition: all .5s;
+}
+
+.s-box:hover {
+     border-color: var(--md-light-green);
+     transform: scale(1.1);
+}
      
 #section-service header {
      margin-bottom: 4.70rem;

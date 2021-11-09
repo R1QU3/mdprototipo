@@ -4,15 +4,23 @@
      /* Default font size */
      font-size: 16px;
      /* Color Pallet */
-     --md-white: #f5f5f5;
+     --md-white: #F5F5FA;
      --md-black: #151515;
      --md-gray: #999;
      --md-strong-green: #187D6D;
      --md-light-green: #48AE4D;
      /* fonts */
-     --md-main-font: 'Zen Antique';
+     --md-main-font: 'superclarendon';
      --md-secondary-font: 'Roboto';
 }
+
+/* Fonts*/
+
+@font-face {
+	font-family: superclarendon;
+	src: local(superclarendon), url(../fonts/superclarendon/superclarendon-rg-587270e85c031.ttf)
+}
+
 
 /* Default */
 

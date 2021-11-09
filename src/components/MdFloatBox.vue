@@ -44,12 +44,13 @@ export default {
 
 .float-box {
      position: absolute;
-     bottom: -14%;
-     left: 10%;
+     bottom: -10rem;
+     left: 7.5rem;
      padding: 2rem;
-     width: 80%;
-     height: 25%;
+     width: 70rem;
+     height: 16rem;
      background-color: var(--md-white);
+     z-index: 1;
 }
 
 .box {
@@ -89,6 +90,11 @@ export default {
      height: 70px;
      left: calc(50% - 35px);
      bottom: -60px;
+     transition: all .5s;
+}
+
+#circle:hover {
+     transform: rotate(360deg);
 }
      
 .text-dafault {

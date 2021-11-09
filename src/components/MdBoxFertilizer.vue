@@ -2,7 +2,9 @@
      
      <div class="s-box">
           <img src="../assets/img/img-elements/fertilizer.png" alt="">
-          <p v-html="name"></p>
+          <div>
+               <p v-html="name"></p>
+          </div>
      </div>
 
 </template>
@@ -19,8 +21,15 @@ export default {
 .s-box {
      display: inline-block;
      padding: 1.25rem;
-     width: 24%;
+     width: 14.625rem;
+     height: 15.3125rem;
      box-sizing: border-box;
+}
+
+.s-box div {
+     margin: 0 auto;
+     width: 80%;
+     overflow-wrap: break-word;
 }
 
 .s-box img {
@@ -33,6 +42,7 @@ export default {
 .s-box p {
      display: block;
      font-family: var(--md-main-font);
+     font-weight: 700;
      color: var(--md-light-green);
      font-size: 1.5rem;
      text-align: center;

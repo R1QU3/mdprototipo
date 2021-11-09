@@ -3,7 +3,7 @@
      <div class="box-card">
 
           <div class="card">
-               <p v-html="commentary"></p>
+               <i><p v-html="commentary"></p></i>
           </div>
 
                <h1 v-html="title"></h1>
@@ -30,6 +30,12 @@
      margin: .5rem;
 }
 
+.box-card p {
+     font-family: var(--md-secondary-font);
+     font-weight: 400;
+     color: #fff;
+}
+
 .box-card h1 {
      font-size: 1.5rem;
      font-family: var(--md-secondary-font);
@@ -46,7 +52,8 @@
 
 .card {
      box-sizing: border-box;
-     width: 20rem;
+     width: 21.25rem;
+     height: 14rem;
      padding: 2.5rem;
      background-color: var(--md-light-green);
      color: #f5f5f5;

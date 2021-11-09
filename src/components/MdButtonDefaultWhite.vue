@@ -10,7 +10,6 @@ export default {
      name: 'MdButtonDefault',
      props: {
           name: String,
-          Bstyle: String,
      }
 }
 </script>
@@ -24,8 +23,8 @@ export default {
      border-radius: 50px;
      border-bottom-right-radius: 0;
      font-family: 'Roboto', sans-serif;
-     background-color: var(--md-strong-green);
-     color: var(--md-white);
+     background-color: var(--md-white);
+     color: var(--md-light-green);
      border: 0;
      outline: none;
      padding: 1.5rem;
@@ -39,6 +38,7 @@ export default {
 
 .default-btn:hover {
      background-color: var(--md-light-green);
+     color: var(--md-white);
 }
 
 nav {

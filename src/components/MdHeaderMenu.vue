@@ -9,15 +9,19 @@
                </div>
                <nav>
                     <ul class="menu">
-                         <li><a href="#">Page</a></li>
-                         <li><a href="#">Page</a></li>
-                         <li><a href="#">Page</a></li>
-                         <li><a href="#">Page</a></li>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Über Uns</a></li>
+                         <li><a href="#">Services</a></li>
+                         <li><a href="#">Kontakt</a></li>
                     </ul>
                     <div class="social">
-                         <a href="#"><img src="../assets/img/img-elements/SocialIcon1.png" alt=""></a>
-                         <a href="#"><img src="../assets/img/img-elements/SocialIcon2.png" alt=""></a>
-                         <a href="#"><img src="../assets/img/img-elements/SocialIcon3.png" alt=""></a>
+                         
+                         <a href="#"><i class="fab fa-facebook"></i></a>
+
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+
+                         <a href="#"><i class="fab fa-linkedin"></i></a>
+
                     </div>
                </nav>
      </header>
@@ -84,9 +88,33 @@ export default {
 }
 
 .social a {
+     text-decoration: none;
      margin-right: 1.2rem;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 1.5625rem;
+     height: 1.5625rem;
+     border-radius: 50%;
+     border: solid 1px var(--md-light-green);
+     transition: all .4s;
 }
 
+.social a i {
+     font-size: 0.780rem;
+     color: var(--md-light-green);
+     z-index: 1;
+     text-align: center;
+     padding: 25%;
+     transition: all .4s;
+}
+.social a:hover {
+     background-color: var(--md-light-green);
+}
 
+.social a i:hover {
+     color: #fff;
+}
 
 </style>

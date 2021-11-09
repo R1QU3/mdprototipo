@@ -39,9 +39,11 @@ export default {
 
 .img-wrapper {
      box-sizing: border-box;
-     width: 100%;
-     height: 660px;
+     width: 740px;
+     height: 710px;
      overflow: hidden;
+     margin-left: auto;
+     margin-bottom: 4.375rem;
 }
 
 .img-wrapper img {
@@ -54,18 +56,25 @@ export default {
 
 .r-box {
      box-sizing: border-box;
-     width: 50%;
-     height: 900px;
+     width: 55%;
+     height: 100%;
 }
 
 .r-box-content {
      width: 100%;
 }
 
+.r-box-content p {
+     box-sizing: border-box;
+     line-height: 1.7rem;
+     width: 100%;
+     height: 150px;
+}
+
 .r-box-content header h2 {
      color: var(--md-light-green);
      font-family: var(--md-main-font), sans-serif;
-     font-size: 1.5rem;
+     font-size: 1.5625rem;
 }
 
 .r-box-content button {
@@ -76,6 +85,8 @@ export default {
      color: var(--md-gray);
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
+     font-size: 1.125rem;
+     text-align: left;
 }
 
 </style>

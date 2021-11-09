@@ -21,8 +21,8 @@ export default {
 #section-photos {
 	margin: 0 auto;
 	box-sizing: border-box;
-	height: 400px;
-	width: 1440px;
+	height: 25rem;
+	width: 90rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,8 +31,13 @@ export default {
 }
 
 #section-photos img {
-	width: 342px;
+	width: 21.375rem;
 	height: 100%;
+	transition: all .5s;
+}
+
+#section-photos img:hover {
+	transform: scale(0.95);
 }
      
 </style>

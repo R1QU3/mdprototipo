@@ -1,8 +1,9 @@
 <template>
 
+      <MdHeaderMenu/>
+
   <main>
 
-      <MdHeaderMenu/>
 
       <section class="section" id="section-header">
 
@@ -23,7 +24,7 @@
           Arbeiten mit den Baumpflege-Profis
         " 
         paragraph="
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sunt harum recusandae, nisi nemo voluptate aut nesciunt beatae blanditiis quam natus illo, animi pariatur rem error obcaecati reprehenderit eaque corrupti!Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sunt harum recusandae, nisi nemo voluptate aut ne
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit feugiat nunc quis tortor enim purus nibh. Tellus aliquam posuere porta curabitur amet lectus lorem cursus. Amet at pellentesque amet orci. Pharetra eget tempus commodo non. Justo, convallis tristique morbi adipiscing varius donec ac. Et a massa augue viverra. Lorem pellentesque lacus, quis lacus lectus feugiat. Volutpat bibendum integer mi dignissim.
         " 
         buttonName="
           Angebot anforden
@@ -33,7 +34,7 @@
 
       </section>
 
-      <section class="section" id="section-article">
+      <section id="section-article">
 
         <MdArticleSection 
         title="
@@ -65,7 +66,7 @@
 
       </section>
 
-      <section class="section" id="section-commentary">
+      <section id="section-commentary">
 
         <MdSectionCommentary />
 
@@ -79,11 +80,12 @@
 
       </section>
 
+
+  </main>
+
       <MdSectionPhoto />
 
       <MdFooter />
-
-  </main>
 
 </template>
 
@@ -137,7 +139,7 @@ export default {
 <style scoped>
 
 main {
-     width: 90%;
+     width: 87rem;
      margin: 0 auto;
 }
 
@@ -150,15 +152,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 75rem;
   padding-bottom: .5rem;
 }
 
 #section-article {
   position: relative;
   box-sizing: border-box;
+  margin: 0 auto;
+  height: 39.375rem;
+  width: 85rem;
   padding: 4.875rem;
   background-image: url(./assets/img/img-bg/bg-leaf.jpg);
-  background-size: cover;
 }
 
 #section-service {
@@ -168,7 +173,9 @@ main {
 
 #section-commentary {
      position: relative;
-     height: 1090px;
+     height: 68.125rem;
+     width: 100%;
+     margin: 0 auto;
      box-sizing: border-box;
      margin-top: 9.06rem;
      padding: 5rem 10.625rem;
@@ -182,7 +189,7 @@ main {
      box-sizing: border-box;
      display: flex;
      align-items: flex-end;
-     height: 600px;
+     height: 37.5rem;
 }
 
 

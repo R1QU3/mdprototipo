@@ -9,10 +9,14 @@
                     <p class="text-default">
                          Volutpat ornare lacus, dignissim morbi bibendum fringilla diam. Sit dui dui non tristique. Cras vivamus metus, sagittis, at etiam sit eu sed viverra. Vehicula turpis sit mauris integer morbi enim tellus.
                     </p>
-                    <div id="social">
-                         <a href="#"><img src="../assets/img/img-elements/social1-50x50.png" alt=""></a>
-                         <a href="#"><img src="../assets/img/img-elements/social2-50x50.png" alt=""></a>
-                         <a href="#"><img src="../assets/img/img-elements/social3-50x50.png" alt=""></a>
+                    <div class="social">
+                         
+                         <a href="#"><i class="fab fa-facebook"></i></a>
+
+                         <a href="#"><i class="fab fa-instagram"></i></a>
+
+                         <a href="#"><i class="fab fa-linkedin"></i></a>
+
                     </div>
                </div>
      
@@ -62,11 +66,11 @@ export default {
      
 }
 </script>
-<style>
+<style scoped>
 
 footer {
 	box-sizing: border-box;
-	width: 1440px;
+	width: 90rem;
 	padding: 3.125rem;
 	margin: 0 auto;
 	height: 500px;
@@ -80,7 +84,7 @@ footer {
 }
 
 #footer-line {
-     width: calc(100% - (3.125rem * 2));
+     width: 81.25rem;
      height: 3px;
      margin: 0 auto;
      background-color: var(--md-light-green);
@@ -143,5 +147,43 @@ footer {
      font-size: 1.125rem;
      font-family: var(--md-secondary-font);
 }
+
+/* Social */
+
+.social {
+     box-sizing: border-box;
+     width: 18.75rem;
+}
+
+
+.social a {
+     text-decoration: none;
+     margin-right: 1.2rem;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     width: 3.125rem;
+     height: 3.125rem;
+     border-radius: 50%;
+     border: solid 1px var(--md-light-green);
+     transition: all .4s;
+}
+
+.social a i {
+     font-size: 1.56rem;
+     color: var(--md-light-green);
+     z-index: 1;
+     text-align: center;
+     transition: all .4s;
+}
+.social a:hover {
+     background-color: var(--md-light-green);
+}
+
+.social a i:hover {
+     color: #fff;
+}
+
      
 </style>
