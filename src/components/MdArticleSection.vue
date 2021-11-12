@@ -85,4 +85,18 @@ export default {
      z-index: -999;
 }
 
+@media screen and (max-width: 1400px) {
+
+     header {
+          width: 100%;
+     }
+     
+     .alicat-content {
+          box-sizing: border-box;
+          width: 100%;
+          height: auto;
+     }
+
+}
+
 </style>

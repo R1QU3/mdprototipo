@@ -169,6 +169,7 @@ main {
 #section-service {
      position: relative;
      margin-top: 9.06rem;
+     box-sizing: border-box;
 }
 
 #section-commentary {
@@ -181,7 +182,6 @@ main {
      padding: 5rem 10.625rem;
      background-image: url(./assets/img/img-bg/garden.jpg);
      background-size: cover;
-     position: relative;
 }
 
 #section-seed {
@@ -192,5 +192,42 @@ main {
      height: 37.5rem;
 }
 
+
+@media screen and (max-width: 1400px) {
+
+  main {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding-bottom: .5rem;
+  }
+
+  #section-article {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  padding: 2.5rem;
+  background-image: url(./assets/img/img-bg/bg-leaf.jpg);
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  
+  #section-commentary {
+    position: static;
+    height: auto;
+    padding: 4rem 0;
+  }
+
+}
 
 </style>

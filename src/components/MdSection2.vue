@@ -89,4 +89,35 @@ export default {
      text-align: left;
 }
 
+@media screen and (max-width: 1400px) {
+     
+     .r-box {
+          box-sizing: border-box;
+          width: 100%;
+          height: auto;
+          margin-bottom: 5rem;
+     }
+     
+     .r-box-content {
+          margin-top: 2rem;
+     }
+
+     .r-box-content header {
+          width: 90%;
+          margin: 0 auto;
+     }
+
+     .img-wrapper {
+          width: 100%;
+          height: auto;
+          position: static;
+          margin: 0 0 auto 0;
+     }
+
+     .r-box-content p {
+          height: auto;
+     }
+
+}
+
 </style>

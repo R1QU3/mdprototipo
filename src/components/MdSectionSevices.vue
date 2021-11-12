@@ -7,7 +7,7 @@
 
      <section class="services">
 
-                    <section class="section services-content">
+                    <section class="services-content">
 
                          <MdBoxWheelBarrow
                               name='
@@ -147,6 +147,36 @@ header {
      font-weight: 700;
      font-size: 3.125rem;
      color: var(--md-light-green);
+}
+
+.services-content {
+     width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+ 
+ 
+     .services-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     
+     .leaf {
+          transform: rotate(90deg);
+          bottom: -15.5rem;
+     }
+
+}
+
+@media screen and (max-width: 1400px) {
+     
+     header {
+          width: 100%;
+          height: auto;
+     }
+
 }
 
 

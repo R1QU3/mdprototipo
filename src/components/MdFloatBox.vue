@@ -45,9 +45,9 @@ export default {
 .float-box {
      position: absolute;
      bottom: -10rem;
-     left: 7.5rem;
+     left: 8%;
      padding: 2rem;
-     width: 70rem;
+     width: 80%;
      height: 16rem;
      background-color: var(--md-white);
      z-index: 1;
@@ -102,5 +102,57 @@ export default {
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
 }
+     
+@media screen and (max-width: 1150px) {
+     
+     .l-box h1 {
+          font-size: 1rem;
+     }
+
+     .l-box h2 {
+          font-size: 2rem;
+     }
+
+     .r-box p {
+          font-size: .8rem;
+     }
+     
+}
+
+@media screen and (max-width: 750px) {
+
+     .float-box {
+          position: static;
+          box-sizing: border-box;
+          width: 95%;
+          margin: 0 auto;
+          height: auto;
+     }
+
+     .box {
+          flex-direction: column;
+          width: 100%;
+          height: auto;
+     }
+
+     .l-box, .r-box {
+          width: 100%;
+     }
+
+          
+     .l-box h1 {
+          font-size: 1.5rem;
+     }
+
+     .l-box h2 {
+          font-size: 2.5rem;
+     }
+
+     .r-box p {
+          font-size: 1rem;
+     }
+
+}
+
 
 </style>

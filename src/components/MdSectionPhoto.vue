@@ -22,7 +22,7 @@ export default {
 	margin: 0 auto;
 	box-sizing: border-box;
 	height: 25rem;
-	width: 90rem;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;

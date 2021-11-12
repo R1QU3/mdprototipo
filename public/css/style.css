@@ -9,6 +9,7 @@
      --md-gray: #999;
      --md-strong-green: #187D6D;
      --md-light-green: #48AE4D;
+     --md-bluepurple: #8a2be2;
      /* fonts */
      --md-main-font: 'superclarendon';
      --md-secondary-font: 'Roboto';
@@ -35,13 +36,10 @@
 
 body {
      width: 100%;
+     max-width: 100vw;
      overflow-x: hidden;
 }
 
-main {
-     box-sizing: border-box;
-     width: 1440px;
-     margin: 0 auto;
+#app {
+     width: 100%;
 }
-
-

@@ -10,37 +10,37 @@
 
                <MdBoxCommentary
                     commentary='
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 1
                     '
                     title='
-                         Max Musstermann
+                         Max Musstermann 1
                     '
                     user='
-                         JustGreen
+                         JustGreen 1
                     '
                />
 
                <MdBoxCommentary
                     commentary='
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 2
                     '
                     title='
-                         Max Musstermann
+                         Max Musstermann 2
                     '
                     user='
-                         JustGreen
+                         JustGreen 2
                     '
                />
 
                <MdBoxCommentary
                     commentary='
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis nec proin nisi libero sit purus. consectetur adipiscing elit.
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 3
                     '
                     title='
-                         Max Musstermann
+                         Max Musstermann 3
                     '
                     user='
-                         JustGreen
+                         JustGreen 3
                     '
                />
 
@@ -103,6 +103,7 @@ export default {
      justify-content: space-around;
      align-items: center;
      width: 100%;
+     transition: all 3s;
 }
 
 .interessiert {

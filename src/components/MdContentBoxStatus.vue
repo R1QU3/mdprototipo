@@ -58,15 +58,26 @@ export default {
 }
 
 #progress-1 {
-     width: 20.9375rem;
+     width: 95%;
 }
 
 #progress-2 {
-     width: 19.0625rem;
+     width: 75%;
 }
 
 #progress-3 {
-     width: 20.9375rem;
+     width: 95%;
+}
+
+@media screen and (max-width: 450px) {
+     
+     .s-box-info {
+          display: block;
+          box-sizing: border-box;
+          width: 80%;
+          margin: 0 auto;
+     }
+
 }
 
 </style>

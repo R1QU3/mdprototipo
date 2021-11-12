@@ -43,7 +43,6 @@ export default {
 
 .img-wrapper img {
      width: 100%;
-     height: 100%;
 }
 
 .text-dafault {
@@ -85,6 +84,43 @@ export default {
      font-size: 3.25rem;
      font-weight: 700;
      color: var(--md-strong-green);
+}
+
+
+@media screen and (max-width: 1400px) {
+
+     .l-box-content {
+          margin: 3rem 0;
+     }
+
+     .img-wrapper {
+          display: none;
+     }
+     
+     .l-box {
+          box-sizing: border-box;
+          width: 100%;
+          height: auto;
+     }
+     
+     .l-box-content {
+          margin-top: 2rem;
+     }
+
+     .l-box-content header {
+          width: 90%;
+          margin: 0 auto;
+     }
+
+     .img-wrapper {
+          position: static;
+          margin: 0 auto 0 0;
+     }
+
+     .l-box-content header h1 {
+          font-size: 3rem;
+     }
+
 }
 
 

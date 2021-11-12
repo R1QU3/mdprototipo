@@ -1,6 +1,6 @@
 <template>
 
-     <div class="box-card">
+     <div class="box-card mySlides">
 
           <div class="card">
                <i><p v-html="commentary"></p></i>
@@ -24,10 +24,12 @@
 </script>
 <style>
 
+.mySlides {display:none;}
+
 .box-card {
      text-align: center;
      line-height: .9rem;
-     margin: .5rem;
+     width: 100%;
 }
 
 .box-card p {
@@ -52,6 +54,7 @@
 
 .card {
      box-sizing: border-box;
+     margin: 0 auto;
      width: 21.25rem;
      height: 14rem;
      padding: 2.5rem;
@@ -60,6 +63,14 @@
      font-family: var(--md-main-font);
      text-align: center;
      line-height: 1.5rem;
+}
+
+@media screen and (max-width: 750px) {
+     
+     .card {
+          width: 90%;
+     }
+
 }
 
 </style>

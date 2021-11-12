@@ -75,4 +75,22 @@ export default {
      z-index: -1;
 }
      
+@media screen and (max-width: 750px) {
+     
+     .seed-content {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+          width: 80%;
+          height: 100%;
+     }
+
+     .seed-box {
+          width: 100%;
+          height: auto;
+     }
+
+}
+
 </style>
