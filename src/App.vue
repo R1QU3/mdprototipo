@@ -1,9 +1,10 @@
 <template>
 
-      <MdHeaderMenu/>
+      <!--<MdHeaderMenu/>-->
 
   <main>
 
+      <MdHeaderMenu/>
 
       <section class="section" id="section-header">
 
@@ -138,6 +139,11 @@ export default {
 
 <style scoped>
 
+#app {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 main {
      width: 87rem;
      margin: 0 auto;
@@ -200,7 +206,7 @@ main {
     width: 90%;
     margin: 0 auto;
   }
-  
+
   #section-header {
   display: flex;
   flex-direction: column;
@@ -221,7 +227,7 @@ main {
 }
 
 @media screen and (max-width: 750px) {
-  
+
   #section-commentary {
     position: static;
     height: auto;

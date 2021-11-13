@@ -105,13 +105,6 @@ footer {
      height: 100%;
 }
 
-#social {
-     width: 40%;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-}
-
 /* Footer social - 421x100 */
 #footer-social, #footer-info {
      width: 40%;
@@ -157,6 +150,9 @@ footer {
 .social {
      box-sizing: border-box;
      width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
 }
 
 
@@ -190,7 +186,7 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-     
+
      #footer-content {
           justify-content: center;
           align-items: center;
@@ -203,7 +199,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-     
+
      #footer-content {
           flex-direction: column;
           padding: 1rem;
@@ -229,9 +225,9 @@ footer {
 
 }
 
-/*           
+/*
 @media screen and (max-width: 750px) {
-          
+
 
 } */
 
