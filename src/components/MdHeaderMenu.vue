@@ -149,6 +149,7 @@
      #hamburger i {
           font-size: 2.5rem;
           cursor: pointer;
+          color: var(--md-light-gray);
      }
 
      /* Main container - Mobile Menu */
@@ -237,7 +238,11 @@
      @media screen and (max-width: 750px) {
           
           #header-nav {
+               position: fixed;
+               top: 0;
+               left: 2rem;
                margin-bottom: 2rem;
+               z-index: 99999999;
           }
 
           #hamburger {

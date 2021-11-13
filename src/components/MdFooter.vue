@@ -70,7 +70,7 @@ export default {
 
 footer {
 	box-sizing: border-box;
-	width: 90rem;
+	width: 100%;
 	padding: 3.125rem;
 	margin: 0 auto;
 	height: 500px;
@@ -114,8 +114,8 @@ footer {
 
 /* Footer social - 421x100 */
 #footer-social, #footer-info {
-     width: 26.3125rem;
-     height: 15.125rem;
+     width: 40%;
+     height: auto;
      text-align: left;
 }
 
@@ -126,17 +126,14 @@ footer {
      font-weight: 400;
      display: block;
      margin-bottom: 0.625rem;
+     margin-left: .5rem;
 }
 
 /* 182x262 */
 #footer-quicklinks {
-     width: 11.375rem;
-     height: 16.375rem;
+     width: 20%;
+     height: auto;
      text-align: left;
-}
-
-#footer-quicklinks a {
-  margin-left: .5rem;
 }
 
 #footer-quicklinks h1, #footer-info h1 {
@@ -159,7 +156,7 @@ footer {
 
 .social {
      box-sizing: border-box;
-     width: 18.75rem;
+     width: 100%;
 }
 
 
@@ -192,5 +189,50 @@ footer {
      color: #fff;
 }
 
+@media screen and (max-width: 950px) {
+     
+     #footer-content {
+          justify-content: center;
+          align-items: center;
+     }
+
+     footer {
+          height: auto;
+     }
+
+}
+
+@media screen and (max-width: 800px) {
+     
+     #footer-content {
+          flex-direction: column;
+          padding: 1rem;
+     }
+
+     #footer-social, #footer-quicklinks, #footer-info {
+          width: 100%;
+     }
+
+     #footer-quicklinks {
+          height: 15rem;
+          overflow-wrap: break-word;
+     }
+
+     #footer-quicklinks a {
+          display: inline-block;
+          margin: .5rem .5rem;
+     }
+
+     footer {
+          padding: 1rem;
+     }
+
+}
+
+/*           
+@media screen and (max-width: 750px) {
+          
+
+} */
 
 </style>
