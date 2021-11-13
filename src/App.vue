@@ -81,12 +81,12 @@
 
       </section>
 
-
-  </main>
-
       <MdSectionPhoto />
 
       <MdFooter />
+
+  </main>
+
 
 </template>
 
