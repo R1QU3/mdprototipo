@@ -1,5 +1,5 @@
 <template>
-     
+
      <div class="r-box">
 
           <div class="r-box-content">
@@ -14,7 +14,7 @@
                     <MdButtonDefault :name="buttonName"/>
                </header>
 
-          </div>     
+          </div>
      </div>
 
 </template>
@@ -80,24 +80,24 @@ export default {
 .r-box-content button {
      margin-bottom: 1rem;
 }
-     
+
 .text-dafault {
      color: var(--md-gray);
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
-     font-size: 1.125rem;
+     font-size: 0.875rem;
      text-align: left;
 }
 
 @media screen and (max-width: 1400px) {
-     
+
      .r-box {
           box-sizing: border-box;
           width: 100%;
           height: auto;
           margin-bottom: 5rem;
      }
-     
+
      .r-box-content {
           margin-top: 2rem;
      }

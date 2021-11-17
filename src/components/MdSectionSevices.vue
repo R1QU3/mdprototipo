@@ -6,7 +6,6 @@
      </header>
 
      <section class="services">
-
                     <section class="services-content">
 
                          <MdBoxWheelBarrow
@@ -43,10 +42,6 @@
                               '
                          />
 
-                    </section>
-
-                    <section class="section services-content">
-
                          <MdBoxWheelBarrow
                               name='
                                    Lorem ipsum dolor sit
@@ -81,7 +76,7 @@
 
 
 </template>
-<script>
+<script scoped>
 
 import MdBoxWheelBarrow from './MdBoxWheelBarrow.vue'
 import MdBoxFertilizer from './MdBoxFertilizer.vue'
@@ -149,33 +144,50 @@ header {
      color: var(--md-light-green);
 }
 
-.services-content {
-     width: 100%;
-}
+@media screen and (max-width: 750px) {
 
-@media screen and (max-width: 700px) {
- 
- 
+    .s-box {
+     width: 45%;
+     margin: .5rem;
+     cursor: pointer;
+     border: solid 1px transparent;
+     transition: all .5s;
+     }
+
      .services-content {
           display: flex;
-          flex-direction: column;
           justify-content: center;
-          align-items: center;
+          flex-wrap: wrap;
+          flex-basis: content;
+          width: 100%;
+          height: 85rem;
      }
-     
+
      .leaf {
-          transform: rotate(90deg);
-          bottom: -15.5rem;
+          transform: rotate(100deg);
+          bottom: -25rem;
      }
 
 }
 
 @media screen and (max-width: 1400px) {
-     
+
      header {
           width: 100%;
           height: auto;
      }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  #section-service header h1 {
+    font-size: 1rem;
+  }
+
+  #section-service header h2 {
+    font-size: 2rem;
+  }
 
 }
 

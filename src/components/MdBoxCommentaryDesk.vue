@@ -23,7 +23,7 @@
           },
      }
 </script>
-<style scoped>
+<style>
 
 .mySlides {display:none;}
 
@@ -65,8 +65,8 @@
      font-family: var(--md-main-font);
      text-align: center;
      line-height: 1.5rem;
-     animation-delay: 6s;
-     animation: translateBox 4s linear;
+     animation-delay: 8s;
+     animation: translateBox 8s linear;
 }
 
 .triangle-bottom {
@@ -82,48 +82,9 @@
     line-height: 0;
 }
 
-@keyframes translateBox {
-     0%{
-          opacity: 0;
-     }
-     100%{
-          opacity: 100;
-     }
-}
-
-@media screen and (max-width: 750px) {
-
-     .box-card {
-          display: block;
-     }
-
-     .card {
-          width: 90%;
-          animation-delay: 10s;
-          animation: transitionBox linear 5s;
-     }
-
-     .box-card h1 {
-          font-size: 1.2rem;
-     }
-
-     @keyframes transitionBox {
-     0%{
-     opacity: 100;
-     }
-     50%{
-     opacity: 0;
-     }
-     100%{
-     opacity: 100;
-     }
-     }
-
-}
-
 @media screen and (max-width: 1000px) {
 
-
+     
 
 }
 

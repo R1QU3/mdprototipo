@@ -58,16 +58,23 @@
           }
      }
 </script>
-<style>
+<style scoped>
      /* Main Header - Menu */
 
      #header-nav {
-          width: 90%;
+       box-sizing: border-box;
+          width: 100%;
+          position: fixed;
+          top: 0;
+          left: 0;
+          padding: 1rem;
           margin: 0 auto;
           display: flex;
           justify-content: space-between;
           align-items: center;
           margin-bottom: 5rem;
+          z-index: 99999;
+          background-color: rgba(255, 255, 255, 50);
      }
 
      #header-nav nav {
@@ -147,7 +154,7 @@
      }
 
      #hamburger i {
-          font-size: 2.5rem;
+          font-size: 2rem;
           cursor: pointer;
           color: var(--md-light-gray);
      }
@@ -185,7 +192,7 @@
      }
 
      #close i {
-          font-size: 5rem;
+          font-size: 2.3rem;
           cursor: pointer;
           transition: all .8s;
      }
@@ -202,12 +209,13 @@
           align-items: center;
           box-sizing: border-box;
           height: 70%;
+          margin: auto 0;
      }
 
      #mobile-menu li a {
           display: inline-block;
           text-decoration: none;
-          font-size: 2.5rem;
+          font-size: 1.6rem;
           font-family: var(--md-secondary-font);
           color: var(--md-black);
           transition: all .5s;
@@ -226,7 +234,7 @@
      }
 
      #mobile-social i {
-          font-size: 2.5rem;
+          font-size: 1.5rem;
           color: var(--md-light-green);
           transition: all .5s;
      }
@@ -236,14 +244,6 @@
      }
 
      @media screen and (max-width: 750px) {
-          
-          #header-nav {
-               position: fixed;
-               top: 0;
-               left: 2rem;
-               margin-bottom: 2rem;
-               z-index: 99999999;
-          }
 
           #hamburger {
                display: block;
@@ -258,7 +258,8 @@
      }
 
      @media screen and (max-width: 1400px) {
-          
+
+
           .logo {
                box-sizing: border-box;
                width: 3rem;

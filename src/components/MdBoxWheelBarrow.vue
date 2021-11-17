@@ -17,7 +17,7 @@ export default {
      }
 }
 </script>
-<style>
+<style scoped>
      
 /* 245x234 */
 
@@ -47,9 +47,24 @@ export default {
      font-family: var(--md-main-font);
      font-weight: 700;
      color: var(--md-light-green);
-     font-size: 1.5rem;
+     font-size: 1.2rem;
      text-align: center;
      width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+
+     .s-box {
+          /* width: 40%; */
+          height: 14rem;
+     }
+
+     .s-box div {
+          margin: 0 auto;
+          width: 95%;
+          overflow-wrap: break-word;
+     }
+
 }
 
 </style>

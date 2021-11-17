@@ -26,7 +26,7 @@ export default {
      }
 }
 </script>
-<style>
+<style scoped>
 
 .s-box-info {
      display: inline-block;
@@ -67,6 +67,16 @@ export default {
 
 #progress-3 {
      width: 95%;
+}
+
+@media screen and (max-width: 700px) {
+     
+     .s-box-info {
+          position: absolute;
+          bottom: -5rem;
+          width: 100%;
+     }
+
 }
 
 @media screen and (max-width: 450px) {

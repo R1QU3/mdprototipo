@@ -1,3 +1,4 @@
+
 <template>
      
      <!-- Float Component -->
@@ -141,15 +142,15 @@ export default {
 
           
      .l-box h1 {
-          font-size: 1.5rem;
+          font-size: 1rem;
      }
 
      .l-box h2 {
-          font-size: 2.5rem;
+          font-size: 2rem;
      }
 
      .r-box p {
-          font-size: 1rem;
+          font-size: .90rem;
      }
 
 }

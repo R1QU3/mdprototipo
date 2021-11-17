@@ -126,4 +126,16 @@ export default {
      overflow-wrap: break-word;
 }
 
+@media screen and (max-width: 750px) {
+
+     .interessiert h1 {
+          font-size: 1rem;
+     }
+
+     .interessiert h2 {
+          font-size: 1.3rem;
+     }
+
+}
+
 </style>

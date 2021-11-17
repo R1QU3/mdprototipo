@@ -52,6 +52,7 @@ export default {
 }
 
 .l-box {
+  margin-top: 5rem;
      box-sizing: border-box;
      width: 45%;
      height: 100%;
@@ -81,13 +82,14 @@ export default {
 
 .l-box-content header h1 {
      font-family: var(--md-main-font), sans-serif;
-     font-size: 3.25rem;
+     font-size: 3.5rem;
      font-weight: 700;
      color: var(--md-strong-green);
 }
 
 
 @media screen and (max-width: 1400px) {
+
 
      .l-box-content {
           margin: 3rem 0;
@@ -96,15 +98,16 @@ export default {
      .img-wrapper {
           display: none;
      }
-     
+
      .l-box {
           box-sizing: border-box;
           width: 100%;
           height: auto;
      }
-     
+
      .l-box-content {
           margin-top: 2rem;
+          padding-left: 5%;
      }
 
      .l-box-content header {
@@ -117,8 +120,12 @@ export default {
           margin: 0 auto 0 0;
      }
 
+     .l-box-content p {
+       font-size: .9rem;
+     }
+
      .l-box-content header h1 {
-          font-size: 3rem;
+          font-size: 2.3rem;
      }
 
 }

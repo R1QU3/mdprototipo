@@ -223,6 +223,16 @@ footer {
           padding: 1rem;
      }
 
+     #copy {
+          flex-direction: column-reverse;
+          justify-content: center;
+     }
+
+     #copy div {
+          width: 100%;
+          text-align: center;
+     }
+
 }
 
 /*

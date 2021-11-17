@@ -90,11 +90,24 @@ export default {
      header {
           width: 100%;
      }
-     
+
      .alicat-content {
           box-sizing: border-box;
           width: 100%;
           height: auto;
+     }
+
+     .alicat-content header h1 {
+       font-size: 1rem;
+     }
+
+     .alicat-content header h2 {
+       font-size: 2rem;
+       line-height: 2rem;
+     }
+
+     .alicat-content p {
+       font-size: .9rem;
      }
 
 }

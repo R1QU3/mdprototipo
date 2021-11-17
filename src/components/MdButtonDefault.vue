@@ -44,5 +44,14 @@ export default {
 nav {
      margin: 1rem 0;
 }
-     
+
+@media screen and (max-width: 750px) {
+
+  .default-btn {
+    width: 15rem;
+    height: 4rem;
+  }
+
+}
+
 </style>
