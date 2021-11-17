@@ -8,6 +8,7 @@
 
           <section class="c-card-section">
 
+               <!-- mobile Section commentary -->
                <MdBoxCommentary
                     commentary='
                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 1
@@ -44,6 +45,44 @@
                     '
                />
 
+               <!-- Section commentary Default -->
+
+               <MdBoxCommentaryDesk
+                    commentary='
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 1
+                    '
+                    title='
+                         Max Musstermann 1
+                    '
+                    user='
+                         JustGreen 1
+                    '
+               />
+
+               <MdBoxCommentaryDesk
+                    commentary='
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 2
+                    '
+                    title='
+                         Max Musstermann 2
+                    '
+                    user='
+                         JustGreen 2
+                    '
+               />
+
+               <MdBoxCommentaryDesk
+                    commentary='
+                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est lacinia non mollis 3
+                    '
+                    title='
+                         Max Musstermann 3
+                    '
+                    user='
+                         JustGreen 3
+                    '
+               />
+
           </section>
 
           <div class="interessiert">
@@ -52,9 +91,7 @@
                <h2>Dann Melden Sie sich gerne für ein unverbindliches Angebot!</h2>
 
                <MdButtonDefaultWhite
-               name='
-                  Angebot anfordern
-               '
+                    name="This is a button"
                />
 
           </div>
@@ -67,6 +104,7 @@
 <script>
 
 import MdBoxCommentary from './MdBoxCommentary.vue'
+import MdBoxCommentaryDesk from './MdBoxCommentaryDesk.vue'
 import MdButtonDefaultWhite from './MdButtonDefaultWhite.vue'
 
 
@@ -78,6 +116,7 @@ export default {
      components: {
           MdButtonDefaultWhite,
           MdBoxCommentary,
+          MdBoxCommentaryDesk,
      }
 }
 </script>
@@ -100,6 +139,7 @@ export default {
 
 .c-card-section {
      display: flex;
+     flex-basis: content;
      justify-content: space-around;
      align-items: center;
      width: 100%;
@@ -126,7 +166,7 @@ export default {
      overflow-wrap: break-word;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
 
      .interessiert h1 {
           font-size: 1rem;
@@ -134,6 +174,10 @@ export default {
 
      .interessiert h2 {
           font-size: 1.3rem;
+     }
+     .c-card-section {
+          justify-content: center;
+          flex-basis: none;
      }
 
 }

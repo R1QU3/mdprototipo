@@ -1,5 +1,7 @@
 <template>
 
+  <div class="d-n">
+
      <div class="box-card mySlides">
 
           <div class="card">
@@ -11,6 +13,8 @@
                <h2 v-html="user"></h2>
 
      </div>
+
+  </div>
 
 </template>
 <script>
@@ -24,6 +28,10 @@
      }
 </script>
 <style scoped>
+
+.d-n {
+     display: none;
+}
 
 .mySlides {display:none;}
 
@@ -91,7 +99,11 @@
      }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
+
+     .d-n {
+          display: block;
+     }
 
      .box-card {
           display: block;
@@ -118,12 +130,6 @@
      opacity: 100;
      }
      }
-
-}
-
-@media screen and (max-width: 1000px) {
-
-
 
 }
 

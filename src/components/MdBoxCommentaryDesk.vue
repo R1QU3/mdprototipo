@@ -1,6 +1,6 @@
 <template>
 
-     <div class="box-card mySlides">
+     <div class="box-card">
 
           <div class="card">
                <i><p v-html="commentary"></p></i>
@@ -23,14 +23,13 @@
           },
      }
 </script>
-<style>
-
-.mySlides {display:none;}
+<style scoped>
 
 .box-card {
      text-align: center;
      line-height: .9rem;
-     width: 100%;
+     box-sizing: border-box;
+     width: 30%;
 }
 
 .box-card p {
@@ -57,7 +56,7 @@
 	position: relative;
      box-sizing: border-box;
      margin: 0 auto;
-     width: 21.25rem;
+     width: auto;
      height: 14rem;
      padding: 2.5rem;
      background-color: var(--md-light-green);
@@ -82,9 +81,30 @@
     line-height: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
-     
+     .box-card h1 {
+     font-size: 1rem;
+     }
+
+     .box-card h2 {
+     font-size: .7rem;
+     }
+}
+
+@media screen and (max-width: 900px) {
+
+     .box-card {
+          display: none;
+     }
+
+     .box-card h1 {
+     font-size: 1rem;
+     }
+
+     .box-card h2 {
+     font-size: .5rem;
+     }
 
 }
 

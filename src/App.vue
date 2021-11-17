@@ -190,6 +190,12 @@ main {
      background-size: cover;
 }
 
+@media screen and (max-width: 1200px) {
+  #section-commentary {
+    padding: 5rem 0;
+  }
+}
+
 #section-seed {
      position: relative;
      box-sizing: border-box;
